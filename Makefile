@@ -11,7 +11,7 @@ image: ash-grove.png
 	lilypond --pdf $<
 
 
-%.ly : %.abc Makefile
+%.ly : source/%.abc Makefile
 	abc2ly -b $<
 
 clean:
