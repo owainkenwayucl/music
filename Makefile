@@ -1,8 +1,8 @@
 all: print image
 
-print: ash-grove.pdf
+print: ash-grove.pdf over-the-hills-and-far-away.pdf
 
-image: ash-grove.png
+image: ash-grove.png over-the-hills-and-far-away.png
 
 %.png: %.ly Makefile
 	lilypond --png $<
