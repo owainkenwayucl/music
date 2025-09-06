@@ -3,3 +3,5 @@
 *.midi
 *.swp
 *.ly
+
+.DS_Store
